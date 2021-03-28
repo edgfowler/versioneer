@@ -3,11 +3,11 @@ Works only for Flutter/Dart version number pattern: major.minor.patch+build
 Only increments the build, the rest is under manual control; 
 ie, mod your pubspec when you are doing a release.
 
-Designed to be run as a git pre-commit hook shell script:
+Runs as a shell scripted git pre-commit hook.
 
 **Example**
 1. Create a bin directory in your project containing the versioneer.dart file from this project. **
-2. Create a .git/hooks/pre-commit file with the code below and *tbd: make it executable (chmod).*
+2. Create a .git/hooks/pre-commit script file with the code below and *tbd: make it executable (chmod).*
 3. Commit something and let me know how it goes.
 ```
 --------------------------------------------------------
