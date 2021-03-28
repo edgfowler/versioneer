@@ -2,7 +2,7 @@ A dart app to incremenent the version in a specified file.
 
 Designed to be run as a git pre-commit hook shell script:
 
-_Example_
+**Example**
 1. Create a bin directory in your project containing the
    versioneer.dart file from this project. **
 2. Add below content to .git/hooks/pre-commit
@@ -20,12 +20,12 @@ Note: /hooks is a hidden, no-stage git directory
 
 ** Alternatively, feel free to clone this project and play around.
 
-_To Dos_
+**To Dos**
 - Versioneer has only been tested to update it's own pubspec.
 - Versioneer has not been tested on iOS, yet.
 - Add comments (but only if someone really needs them :)
 
-_Disclaimers_
+**Disclaimers**
 - This work comes with no warranties, express or implied...
 - Constructive comments are welcome; but corrections, additions...
   are at the sole discretion of me and those willing to contribute.
