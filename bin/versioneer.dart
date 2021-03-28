@@ -15,6 +15,7 @@ int main(var args) {
     lines.insert(index, newVersionStr);
     String fileString = lines.join('\n');
     file.writeAsStringSync(fileString);
+    print('Versioneer complete: ' + newVersionStr);
     return 0;
   } catch (e) {
     print('Versioneer exception: ' + e.toString());
