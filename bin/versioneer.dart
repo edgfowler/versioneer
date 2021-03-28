@@ -17,7 +17,7 @@ int main(var args) {
     file.writeAsStringSync(fileString);
     return 0;
   } catch (e) {
-    print(e);
+    print('Versioneer exception: ' + e.toString());
     return 1;
   }
 }
