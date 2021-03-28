@@ -1,5 +1,5 @@
-A dart app to incremenent the build number of a version line in a specified file.
-Works only for Flutter/Dart version number pattern: major.minor.patch+build
+A dart app to incremenent the build number of a version line in a specified file.<br/>
+Works only for Flutter/Dart version number pattern: major.minor.patch+build<br/>
 Only increments the build, the rest is under manual control; 
 ie, mod your pubspec when you are doing a release.
 
