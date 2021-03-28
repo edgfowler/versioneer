@@ -7,6 +7,7 @@ Designed to be run as a git pre-commit hook shell script:
    versioneer.dart file from this project. **
 2. Add below content to .git/hooks/pre-commit
 3. Commit something and let me know how it goes.
+'''
 --------------------------------------------------------
 #!/bin/sh
 #^^^^^^^^ Ignored by Windows
@@ -15,6 +16,7 @@ echo Running Versioneer with version file: $version_file
 dart run bin/versioneer.dart $version_file
 git add $version_file
 --------------------------------------------------------
+'''
 Note: /hooks is a hidden, no-stage git directory
 *(so, I'm not checking in the above example script)*
 
