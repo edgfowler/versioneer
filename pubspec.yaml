@@ -1,6 +1,6 @@
 name: versioneer
-version: 0.1.0+0
-description: A dart app too incremenent the version in a specified file.
+version: 0.1.0+2
+description: A dart app to incremenent the version in a specified file.
 
 # version: 1.0.0
 # homepage: https://www.example.com
