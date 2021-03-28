@@ -1,6 +1,6 @@
 name: versioneer
-version: 0.1.1+36
-description: A simple command-line application.
+version: 0.1.0+0
+description: A dart app too incremenent the version in a specified file.
 
 # version: 1.0.0
 # homepage: https://www.example.com
