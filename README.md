@@ -8,7 +8,7 @@ Runs as a shell scripted git pre-commit hook.
 **Example**
 1. Create a bin directory in your project containing the versioneer.dart file from this project. **
 2. Create a .git/hooks/pre-commit script file with the code below and *tbd: make it executable (chmod).*
-3. Commit something and let me know how it goes.  Please leave comments in the Discussions tab.
+3. Commit something and let me know how it goes.
 ```
 #!/bin/sh
 #^^^^^^^^ Ignored by Windows
