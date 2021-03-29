@@ -10,14 +10,12 @@ Runs as a shell scripted git pre-commit hook.
 2. Create a .git/hooks/pre-commit script file with the code below and *tbd: make it executable (chmod).*
 3. Commit something and let me know how it goes.
 ```
---------------------------------------------------------
 #!/bin/sh
 #^^^^^^^^ Ignored by Windows
 version_file=pubspec.yaml
 echo Running Versioneer with version file: $version_file
 dart run bin/versioneer.dart $version_file
 git add $version_file
---------------------------------------------------------
 ```
 Note: /hooks is a hidden, no-stage git directory
 *(so, I'm not checking in the above example script)*
