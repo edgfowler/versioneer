@@ -25,7 +25,7 @@ Note: /hooks is a hidden, no-stage git directory
 **To Dos**
 - Add comments *( but only if someone really needs them :)*
 
-**Updates**
+**Updates**<br/>
 3/31/2021
 - Versioneer has tested to update pubspec.yaml in another project.
 - Versioneer has been tested on iOS.*
