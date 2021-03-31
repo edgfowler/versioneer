@@ -23,9 +23,14 @@ Note: /hooks is a hidden, no-stage git directory
 ** Alternatively, feel free to clone this project and play around.
 
 **To Dos**
-- Versioneer has only been tested to update it's own pubspec.
-- Versioneer has not been tested on iOS, yet.
 - Add comments *( but only if someone really needs them :)*
+
+**Updates**
+3/31/2021
+- Versioneer has tested to update pubspec.yaml in another project.
+- Versioneer has been tested on iOS.*
+  There is an 'after-effect' in that the pre-commit 'add' leaves the working tree 'dirty'.
+  It is not a show stopper, but I'd rather get it 'clean'; any advice is appreciated :)
 
 **Disclaimers**
 - This work comes with no warranties, express or implied...
